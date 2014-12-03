@@ -4,4 +4,4 @@ jdk:
   - openjdk7
   - openjdk6
 env:
-- TARGET="https://github.com/techexcel/HelloWorld"
+- TARGET=https://github.com/techexcel/HelloWorld.git
