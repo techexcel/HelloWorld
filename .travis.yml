@@ -4,4 +4,4 @@ jdk:
   - openjdk7
   - openjdk6
 env:
-- TARGET="flash"
+- TARGET="https://github.com/techexcel/HelloWorld"
