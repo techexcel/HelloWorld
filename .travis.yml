@@ -3,3 +3,9 @@ jdk:
   - oraclejdk7
   - openjdk7
   - openjdk6
+env:
+  - "FTP_USER=jxftp"
+  - "FTP_PASSWORD=techexcel"
+after_success:
+    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://60.12.94.82/Upload/Zhenhao/"
+ 
