@@ -3,5 +3,5 @@ env:
   - "FTP_USER=jxftp"
   - "FTP_PASSWORD=techexcel"
 after_success:
-    "curl --ftp-create-dirs -T https://github.com/techexcel/HelloWorld/blob/master/pom.xml -u $FTP_USER:$FTP_PASSWORD ftp://60.12.94.82/Upload/Zhenhao/"
+    "curl --ftp-create-dirs -T target -u $FTP_USER:$FTP_PASSWORD ftp://60.12.94.82/Upload/Zhenhao/"
  
